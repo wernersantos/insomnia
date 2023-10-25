@@ -1,0 +1,23 @@
+_id: req_f3f865925cc54b8da9e81c8e2e7f68ad
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1698241665856
+created: 1698241663733
+url: https://integracaototvs.azurewebsites.net/api/49bdddd6-7114-ee11-9cbe-000d3ac16337/InscricoesCandidatos?numeroPagina=1&quantidade=50
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698241663733
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

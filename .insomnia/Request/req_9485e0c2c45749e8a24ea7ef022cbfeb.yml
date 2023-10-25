@@ -1,0 +1,34 @@
+_id: req_9485e0c2c45749e8a24ea7ef022cbfeb
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1698243584037
+created: 1698243308057
+url: http://metodista.api.crmeducacional.com/api/BuscarLeadsSemInscricao
+name: Buscar lead sem Inscrição
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_4a91c82a9ddd468484576517743d7362
+    name: dataInicial
+    value: 2023-10-05
+    description: ""
+  - id: pair_7bbbde34df554deebd8a1f98139a3f7e
+    name: dataFinal
+    value: 2023-10-25
+    description: ""
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: 5g91dtBJJVOdHmIGpSfaoWBvjLMKLKrOvg1qHpKCyLIA3LIZshNo6x1kc4PK2DQo5Au7fx-K3x5o7ENiryckUmJzay-FFSgrRmolIIkSz6wtGw26tskzD3rUmHI1l_8rBv0TZ0m_1x__96QDQQIAocTG3Q_FKtmmo_raZffByjLqhlx3n-2AeV3oqfqSO4feHu8XxTWFj0qUfam1UWCTcMFUZcHqHxj6bcIbuEGiCQc
+  prefix: bearer
+metaSortKey: -1698243308057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

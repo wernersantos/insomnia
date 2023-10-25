@@ -1,0 +1,47 @@
+_id: req_4af9f86f22d540a7a27ab075c2398d0b
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1673051545168
+created: 1660070462899
+url: http://metodista.api.crmeducacional.com/api/token
+name: token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_202b018f497542f499ccdf24b2fa2d05
+      name: username
+      value: unimep_integracao
+      description: ""
+    - id: pair_303b2544b4dd45d580aa822421e70c28
+      name: password
+      value: unimep@crm
+      description: ""
+    - id: pair_a8d651aed98d4c69a7579475f19f5d9c
+      name: Grant_Type
+      value: password
+      description: ""
+    - id: pair_e7dd25efa1364841bb43d31905a3d87a
+      name: authentication_type
+      value: APICRMEducacional
+      description: ""
+parameters:
+  - id: pair_1e9056350e494ea7a34f9ec7cacce92c
+    name: ""
+    value: ""
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_17fe67be17c74d7ea323f3b72f9476c2
+authentication: {}
+metaSortKey: -1660070462899
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

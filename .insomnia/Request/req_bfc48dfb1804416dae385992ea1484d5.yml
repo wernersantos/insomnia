@@ -1,0 +1,169 @@
+_id: req_bfc48dfb1804416dae385992ea1484d5
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1698240939017
+created: 1660070995548
+url: http://metodista.api.crmeducacional.com/api/localizacaoavancada
+name: localizacao-avancada
+description: ""
+method: GET
+body:
+  mimeType: text/plain
+  text: >-
+    <fetch version="1.0" output-format="xml-platform" mapping="logical"
+    distinct="false">
+      <entity name="cad_inscricaocandidato">
+       <attribute name="cad_numeroinscricao" />
+            <attribute name="cad_clientepotencialid" />
+            <attribute name="cad_situacao" />
+            <attribute name="cad_concursoid" />
+            <attribute name="cad_ofertaid" />
+            <attribute name="coc_situacaopagamento" />
+            <attribute name="cad_situacaoavaliacao" />
+            <attribute name="cad_salaid" />
+            <attribute name="cad_datadaprova" />
+            <attribute name="met_horadaprova" />
+            <attribute name="createdon" />
+            <attribute name="cad_dadosobrigatorioscoletados" />
+            <attribute name="cad_inscricaocandidatoid" />
+            <attribute name="cad_situacao" />
+            <attribute name="crmeduc_data_aprovacao" />
+            <attribute name="new_telefoneresponsvelfinanceiro" />
+            <attribute name="new_rgresponsvelfinanceiro" />
+            <attribute name="new_nmeroresponsvelfinanceiro" />
+            <attribute name="met_utilizounotaenem" />
+            <attribute name="cad_enemnotatotal" />
+            <attribute name="cad_enemredacao" />
+            <attribute name="cad_enemmatematica" />
+            <attribute name="cad_enemlinguagens" />
+            <attribute name="cad_enemcienciashumanas" />
+            <attribute name="cad_enemcienciasnatureza" />
+            <attribute name="crmeduc_nota_agendado" />
+            <attribute name="met_notafinalprocessoseletivo" />
+            <attribute name="met_tipoprova" />
+            <attribute name="cad_nomeresponsavelfinanceiro" />
+            <attribute name="new_logradouroresponsvelfinanceiro" />
+            <attribute name="cad_emailresponsavelfinanceiro" />
+            <attribute name="cad_datanascimentoresponsavelfinanceiro" />
+            <attribute name="cad_cpfresponsavelfinanceiro" />
+            <attribute name="new_complementoresponsvelfinanceiro" />
+            <attribute name="new_cidaderesponsvelfinanceiroid" />
+            <attribute name="new_bairroresponsvelfinanceiro" />
+            <attribute name="cad_datanascimentoresponsavelfinanceiro" />
+            <attribute name="new_telefoneresponsvelfinanceiro" />
+            <attribute name="new_logradouroresponsvelfinanceiro" />
+            <attribute name="new_nmeroresponsvelfinanceiro" />
+            <attribute name="new_complementoresponsvelfinanceiro" />
+            <attribute name="new_bairroresponsvelfinanceiro" />
+            <attribute name="crmeduc_cidaderesponsvelfinanceiro" />
+            <attribute name="new_cepresponsvelfinanceiro" />
+            <attribute name="cad_emailresponsavelfinanceiro" />
+            <attribute name="new_rgresponsvelfinanceiro" />
+            <attribute name="met_tipodelista" />
+            <attribute name="met_numerodoboleto" />
+            <attribute name="met_idinscricaometodista" />
+            <attribute name="cad_notafinalenemmetodista" />
+            <attribute name="cad_notafinalenemmetodistatexto" />
+            <attribute name="met_notafinalprocessoseletivodois" />
+            <attribute name="met_kitlogo" />
+            <attribute name="met_codigo" />
+            <attribute name="met_turno" />
+            <attribute name="met_origembolsa" />
+            <attribute name="met_tipobolsa" />
+            <attribute name="met_doao" />
+            <attribute name="met_datainicial" />
+            <attribute name="met_datafinal" />
+        <order attribute="createdon" descending="true" />
+        <filter type="and">
+          <condition attribute="cad_numeroinscricao" operator="eq" value="CAN-098886-MTD" />
+        </filter>
+        <link-entity name="lead" from="leadid" to="cad_clientepotencialid" visible="false" link-type="outer" alias="a_882fc5f7b570e41180cb00155d005d7d">
+          <attribute name="cad_cpf" />
+        </link-entity>
+    		<link-entity name="lead" from="leadid" to="cad_clientepotencialid" visible="false" link-type="outer" alias="a_882fc5f7b570e41180cb00155d005d7d">
+              <attribute name="cad_cpf" />
+              <attribute name="new_ufemissorg" />
+              <attribute name="new_ufdenascimento" />
+              <attribute name="new_tipoescolaconclusoensinomdio" />
+              <attribute name="new_sexo" />
+              <attribute name="address1_line1" />
+              <attribute name="cad_rg" />
+              <attribute name="cad_orgaoexpedidor" />
+              <attribute name="cad_prmatriculado" />
+              <attribute name="leadsourcecode" />
+              <attribute name="address1_line2" />
+              <attribute name="cad_nomesocial" />
+              <attribute name="cad_nomepai" />
+              <attribute name="cad_nomemae" />
+              <attribute name="fullname" />
+              <attribute name="cad_facebook" />
+              <attribute name="cad_enemredacao" />
+              <attribute name="cad_enem" />
+              <attribute name="crmeduc_conta_origem" />
+              <attribute name="emailaddress1" />
+              <attribute name="cad_datanascimento" />
+              <attribute name="modifiedon" />
+              <attribute name="createdon" />
+              <attribute name="new_nascionalidadeid" />
+              <attribute name="cad_datanascimento" />
+              <attribute name="new_coreraa" />
+              <attribute name="cad_conta" />
+              <attribute name="address1_line3" />
+              <attribute name="address1_city" />
+              <attribute name="address1_postalcode" />
+              <attribute name="crmeduc_celular_sem_ddd" />
+              <attribute name="crmeduc_ddd_corrigido" />
+              <attribute name="address1_county" />
+              <attribute name="cad_enemano" />
+              <attribute name="met_escolaensinomdioid" />
+              <attribute name="met_rnemetodista" />
+              <attribute name="mobilephone" />
+              <attribute name="telephone2" />
+              <attribute name="met_dddtelresidencial" />
+              <attribute name="met_telresidencialsemddd" />
+              <attribute name="met_necessidadeespecialmetodista" />
+              <attribute name="crmeduc_naturalidadetexto" />
+              <attribute name="met_nacionalidade" />
+              <attribute name="crmeduc_nacionalidadetexto" />
+              <attribute name="met_estadocivil" />
+              <attribute name="cad_orgaoexpedidor" />
+              <attribute name="address1_stateorprovince" />
+              <attribute name="met_origem" />
+              <attribute name="cad_pnebaixavisao" />
+              <attribute name="cad_pnecegueira" />
+              <attribute name="cad_pnesurdez" />
+              <attribute name="cad_pneauditiva" />
+              <attribute name="cad_pnefisica" />
+              <attribute name="cad_pnesurdocegueira" />
+              <attribute name="cad_pnemultipla" />
+              <attribute name="cad_pnemental" />
+              <attribute name="cad_pneautismoinfantil" />
+              <attribute name="cad_pnesindromedeasperger" />
+              <attribute name="cad_pnesindromederett" />
+              <attribute name="cad_pnetranstornodesintegrativodainfancia" />
+              <attribute name="cad_pnealtashabilidadessuperdotacao" />
+            </link-entity>
+            <link-entity name="cad_sala" from="cad_salaid" to="cad_salaid" visible="false" link-type="outer" alias="a_a4c6df2b55c0ea11a812000d3ac1779c">
+              <attribute name="cad_name" />
+              <attribute name="cad_capacidade" />
+            </link-entity>
+
+      </entity>
+    </fetch>
+parameters: []
+headers:
+  - name: Content-Type
+    value: text/plain
+    id: pair_d777cd1347c54b3aa286e9a1431ae74e
+authentication:
+  type: bearer
+  token: 5g91dtBJJVOdHmIGpSfaoWBvjLMKLKrOvg1qHpKCyLIA3LIZshNo6x1kc4PK2DQo5Au7fx-K3x5o7ENiryckUmJzay-FFSgrRmolIIkSz6wtGw26tskzD3rUmHI1l_8rBv0TZ0m_1x__96QDQQIAocTG3Q_FKtmmo_raZffByjLqhlx3n-2AeV3oqfqSO4feHu8XxTWFj0qUfam1UWCTcMFUZcHqHxj6bcIbuEGiCQc
+  prefix: bearer
+metaSortKey: -1660070995548
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

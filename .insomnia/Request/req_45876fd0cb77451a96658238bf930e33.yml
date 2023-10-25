@@ -1,0 +1,23 @@
+_id: req_45876fd0cb77451a96658238bf930e33
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1697665068479
+created: 1697664821942
+url: http://totvs.metodista.br:8080/web/app/Edu/PortalProcessoSeletivo/?c=1&f=4&ct=4&ps=11#/es/login?action=&expired=0&recuperarSenha=0
+name: Totvs-GET
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697664821942
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

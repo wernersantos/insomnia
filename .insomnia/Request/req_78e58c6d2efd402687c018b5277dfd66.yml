@@ -1,0 +1,23 @@
+_id: req_78e58c6d2efd402687c018b5277dfd66
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1698241513781
+created: 1698241390455
+url: https://integracaototvs.azurewebsites.net/api/49bdddd6-7114-ee11-9cbe-000d3ac16337/InscricoesCandidatos/Filtrar?unidadeNegocioId=3fa85f64-5717-4562-b3fc-2c963f66afa6&numeroPagina=3&quantidade=50
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1698241390455
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

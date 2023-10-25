@@ -1,0 +1,35 @@
+_id: req_3fd62c94460a4021a6c1bd22c6de86ee
+type: Request
+parentId: wrk_6846695ed47d4d84b5a4c4a1784bf615
+modified: 1697808725738
+created: 1697665074045
+url: http://totvs.metodista.br:8080/web/app/Edu/PortalProcessoSeletivo/?c=1&f=4&ct=4&ps=11#/es/login?action=&expired=0&recuperarSenha=0
+name: TOTVS-POST
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_d5eaa9d411ad4895968a926637587715
+      name: NIC
+      value: CAN-098812-MTD
+      description: ""
+    - id: pair_a8825e1b6c1e464887beda7351cc4b48
+      name: NICC
+      value: uo3WJkkY+uRaGkaA5iQKWw==
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1697665074045
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
